@@ -18,3 +18,5 @@ def visualize_segmentation(mail_filename, visualized_mail_filename, path):
 	return
 
 visualize_segmentation("dat/mail1.dat", 'path_test.txt', path)
+
+a=3
