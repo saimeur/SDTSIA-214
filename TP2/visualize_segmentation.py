@@ -10,7 +10,7 @@ def visualize_segmentation(mail_filename, visualized_mail_filename, path):
 		mail_filename = mail_filename[:-4] + ".txt" 
 	mail = open(mail_filename, 'r')
 	header = mail.read(i)
-	visu.write(header) 
+	visu.write(header)
 	visu.write("\n===================== cut here\n") 
 	visu.write(mail.read(path.sum()))
 	visu.close() 
@@ -19,4 +19,4 @@ def visualize_segmentation(mail_filename, visualized_mail_filename, path):
 
 visualize_segmentation("dat/mail1.dat", 'path_test.txt', path)
 
-a=3
+Ceci est un test
